@@ -1,0 +1,23 @@
+.logo {
+    width: 120px;
+    margin-top: -5px;
+}
+
+.view {
+    background: url("/src/img/Cheveux.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: rgba(239, 152, 29, 0.97);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgba(239, 152, 29, 0.85);
+    }
+}

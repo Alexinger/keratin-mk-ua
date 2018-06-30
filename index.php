@@ -1,30 +1,12 @@
-<?php include_once "header.php" ?>
+<?php include_once "template/header.php" ?>
 <!--Main Navigation-->
 <header>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-        <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Главная <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/foto-work.php">Фото работ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about.php">Обо мне</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <?php include_once "template/nav.php" ?>
 
     <div class="view intro-2" style="">
         <div class="full-bg-img">
-            <div class="mask rgba-purple-light flex-center">
+            <div class="mask rgba-brown-strong flex-center">
                 <div class="container text-center white-text wow fadeInUp">
                     <h1>Дайте вашим волосом новое дыхание</h1>
                     <br>
@@ -55,4 +37,4 @@
 
 </main>
 <!--Main Layout-->
-<?php include_once "footer.php" ?>
+<?php include_once "template/footer.php" ?>
