@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Salon Keratin
 
 You can use the [editor on GitHub](https://github.com/Alexinger/keratin-mk-ua/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
