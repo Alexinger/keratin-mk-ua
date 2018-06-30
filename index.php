@@ -1,19 +1,62 @@
-<?php include_once "template/header.php" ?>
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Кератиновое выпрямление волос</title>
+    <!-- My style -->
+    <link href="../src/style/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+</head>
+<body>
 <!--Main Navigation-->
 <header>
 
-    <?php include_once "template/nav.php" ?>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <a class="navbar-brand" href="/"><img src="../src/img/logo.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Главная <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="foto-work.php">Фото работ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">Обо мне</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="view intro-2" style="">
+    <div class="view intro-2">
         <div class="full-bg-img">
             <div class="mask rgba-brown-strong flex-center">
                 <div class="container text-center white-text wow fadeInUp">
-                    <h1>Дайте вашим волосом новое дыхание</h1>
-                    <br>
-                    <h3>Выпрямление вьющихся волос, с помощью кератина.</h3>
-                    <p>Эффект держится от 3 до 6 месяцев.</p>
-                    <br>
-                    <p>Вы ощутите всю красоту и мощь ваших волос, которые придадут вам уверенности в себе!</p>
+                    <h1>Дайте вашим волосам новое дыхание</h1>
+                    <div class="block-header py-2 mt-4">
+                        <h3>Выпрямление вьющихся волос, с помощью кератина.</h3>
+                        <br>
+                        <p>Эффект держится от 3 до 6 месяцев.</p>
+                        <p>Вы ощутите всю красоту и мощь ваших волос, которые придадут вам уверенности в себе!</p>
+                    </div>
                 </div>
             </div>
         </div>
