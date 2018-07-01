@@ -43,9 +43,10 @@
                 </ul>
             </div>
         </nav>
+    </header>
 
     <!--Main Layout-->
-    <main class="text-center py-5" style="margin-top: 100px;">
+    <main class="text-center" style="margin-top: 100px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

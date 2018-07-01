@@ -45,7 +45,9 @@
     </nav>
 
 </header>
-    <div class="container" style="margin-top: 100px;">
+<!--Jumbotron-->
+<div class="jumbotron">
+    <div class="container mt-5">
     <!-- Card deck -->
     <div class="card-deck">
 
@@ -130,5 +132,6 @@
     </div>
     <!-- Card deck -->
     </div>
+</div>
 
 <?php include_once "../template/footer.php" ?>

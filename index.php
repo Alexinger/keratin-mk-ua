@@ -13,6 +13,9 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
 
+    <!--Google Maps-->
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyACHrrCY1PXDPq0L0HWZaTyZsi0Onv32j4"></script>
+    <script type="text/javascript" src="src/script/js.js"></script>
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -76,7 +79,18 @@
 
             </div>
         </div>
+
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <!--Google map-->
+                <div id="map-container" class="z-depth-1" style="height: 500px"></div>
+            </div>
+        </div>
+    </div>
+
+
 
 </main>
 <!--Main Layout-->
