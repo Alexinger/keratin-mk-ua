@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /forms
+Disallow: /script
+
+Host: https://keratin.mk.ua
+
+Sitemap: https://keratin.mk.ua/sitemap.xml

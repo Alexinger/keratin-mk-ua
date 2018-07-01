@@ -1,6 +1,6 @@
 </body>
 <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+<footer class="page-footer font-small pt-4 mt-4" style="background: url('/src/img/footer.png') #656565">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">

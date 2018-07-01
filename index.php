@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="yandex-verification" content="7eaf8f203d6d1a1b" />
     <title>Кератиновое выпрямление волос</title>
     <!-- My style -->
     <link href="../src/style/style.css" rel="stylesheet">
@@ -40,7 +41,7 @@
                     <a class="nav-link" href="/">Главная <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="foto-work.php">Фото работ</a>
+                    <a class="nav-link" href="foto-work.php">Портфолио</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">Обо мне</a>
@@ -51,16 +52,36 @@
 
     <div class="view intro-2">
         <div class="full-bg-img">
-            <div class="mask rgba-brown-strong flex-center">
+            <div class="mask rgba-brown-strong flex-center d-flex flex-column">
                 <div class="container text-center white-text wow fadeInUp">
-                    <h1>Дайте вашим волосам новое дыхание</h1>
-                    <div class="block-header py-2 mt-4">
+                <h1 class="mb-4 mt-5">Дайте вашим волосам новое дыхание</h1>
+                    <div class="block-header">
                         <h3>Выпрямление вьющихся волос, с помощью кератина.</h3>
                         <br>
                         <p>Эффект держится от 3 до 6 месяцев.</p>
                         <p>Вы ощутите всю красоту и мощь ваших волос, которые придадут вам уверенности в себе!</p>
                     </div>
+
                 </div>
+                <!-- Material auto-sizing form -->
+                <form class="my-4">
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <div class="md-form">
+                                <input type="text" class="form-control mb-2 white-text" id="inlineFormInputMD" placeholder="Ваше имя" required>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="md-form input-group">
+                                <input type="tel" class="form-control pl-0 rounded-0 white-text" id="inlineFormInputGroupMD" placeholder="Ваш телефон" required>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-light-green mb-0">Оставить заявку</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- Material auto-sizing form -->
             </div>
         </div>
     </div>
