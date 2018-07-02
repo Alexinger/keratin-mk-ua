@@ -17,13 +17,32 @@
 }
 
 .block-header{
+    max-width: max-content;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.23);
     padding: 10px 15px;
 }
 
+.header-text{
+    color: brown;
+    font-weight: 600;
+}
+
+.call-action{
+    z-index: 1;
+    right: 15px;
+    bottom: 15px;
+}
+.img-fluid:hover{
+    box-shadow: none !important;
+    transition: 0.3s all;
+}
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: rgba(239, 152, 29, 0.97);
+    }
+    .call-action{
+        right: 5px;
+        bottom: 5px;
     }
 }

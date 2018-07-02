@@ -46,92 +46,64 @@
 
 </header>
 <!--Jumbotron-->
-<div class="jumbotron">
-    <div class="container mt-5">
-    <!-- Card deck -->
-    <div class="card-deck">
+    <div class="container" style="margin-top: 110px;">
+                <div class="mdb-lightbox d-flex flex-wrap">
 
-        <!-- Card -->
-        <div class="card mb-4">
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" class="img-fluid z-depth-2">
+                        </a>
+                    </figure>
 
-            <!--Card image-->
-            <div class="view overlay">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-            <!--Card content-->
-            <div class="card-body">
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-                <!--Title-->
-                <h4 class="card-title">Card title</h4>
-                <!--Text-->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-            </div>
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(151).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-        </div>
-        <!-- Card -->
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-        <!-- Card -->
-        <div class="card mb-4">
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-            <!--Card image-->
-            <div class="view overlay">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-            <!--Card content-->
-            <div class="card-body">
+                    <figure class="col-md-4">
+                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg" data-size="1600x1067">
+                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(149).jpg" class="img-fluid z-depth-2" />
+                        </a>
+                    </figure>
 
-                <!--Title-->
-                <h4 class="card-title">Card title</h4>
-                <!--Text-->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-
-            </div>
-
-        </div>
-        <!-- Card -->
-
-        <!-- Card -->
-        <div class="card mb-4">
-
-            <!--Card image-->
-            <div class="view overlay">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            <!--Card content-->
-            <div class="card-body">
-
-                <!--Title-->
-                <h4 class="card-title">Card title</h4>
-                <!--Text-->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-
-            </div>
-
-        </div>
-        <!-- Card -->
-
-    </div>
-    <!-- Card deck -->
-    </div>
+                </div>
 </div>
 
 <?php include_once "../template/footer.php" ?>

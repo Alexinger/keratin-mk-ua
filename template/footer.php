@@ -9,12 +9,11 @@
         <div class="row">
 
             <!-- Grid column -->
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-5 mx-auto">
 
                 <!-- Content -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-                <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit.</p>
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Дополнительная информация</h5>
+                <p>Инновационный уход за волосами, который восстанавливает структуру волос и придает им блеск. <br><strong>Кератиновое выпрямление</strong> - лечение волос. <br><strong>Ботокс</strong> - полное восстановление.</p>
 
             </div>
             <!-- Grid column -->
@@ -22,23 +21,23 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-2 mx-auto">
+            <div class="col-md-3 mx-auto">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Полезные статьи</h5>
 
                 <ul class="list-unstyled">
                     <li>
-                        <a href="#!">Link 1</a>
+                        <a href="#!">Уход за волосами</a>
                     </li>
                     <li>
-                        <a href="#!">Link 2</a>
+                        <a href="#!">Вреден или полезен кератин</a>
                     </li>
                     <li>
-                        <a href="#!">Link 3</a>
+                        <a href="#!">Что такое ботокс</a>
                     </li>
                     <li>
-                        <a href="#!">Link 4</a>
+                        <a href="#!">10 Мифов про кератин</a>
                     </li>
                 </ul>
 
@@ -48,52 +47,14 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-2 mx-auto">
+            <div class="col-md-3 mx-auto">
 
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Контакты</h5>
                 <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
+                    <li><a href="tel:+380958874999" rel="nofollow">+38 (095) 88-74-999</a></li>
+                    <li>Работаем с 09.00 до 21.00</li>
+                    <li>ул. Героев Сталинграда, 13е</li>
                 </ul>
-
-            </div>
-            <!-- Grid column -->
-
-            <hr class="clearfix w-100 d-md-none">
-
-            <!-- Grid column -->
-            <div class="col-md-2 mx-auto">
-
-                <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
-                </ul>
-
             </div>
             <!-- Grid column -->
 
@@ -108,13 +69,8 @@
     <!-- Social buttons -->
     <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1">
+            <a href="https://www.facebook.com/Natalykeratin" class="btn-floating btn-fb mx-1">
                 <i class="fa fa-facebook"> </i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
-                <i class="fa fa-twitter"> </i>
             </a>
         </li>
         <li class="list-inline-item">
@@ -123,13 +79,8 @@
             </a>
         </li>
         <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1">
-                <i class="fa fa-linkedin"> </i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-dribbble mx-1">
-                <i class="fa fa-dribbble"> </i>
+            <a href="https://www.instagram.com/botox_keratin_nikolaev" class="btn-floating btn-dribbble mx-1">
+                <i class="fa fa-instagram"></i>
             </a>
         </li>
     </ul>
