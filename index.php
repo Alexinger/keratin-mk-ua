@@ -1,3 +1,8 @@
+<?php
+
+require_once "variables/var-list.php";
+
+echo '
 <!DOCTYPE html>
 <html lang="en" class="full-height">
 <head>
@@ -53,9 +58,7 @@
             <ul class="navbar-nav nav-flex-icons">
                 <li class="nav-item d-flex align-self-center">
                     <a href="tel:+380958874999" class="mr-2 text-white font-weight-normal">
-                        <i class="fa fa-phone light-green-text-2 mr-2"></i>
-                        (095) 88 74 999
-                    </a>
+                        <i class="fa fa-phone light-green-text-2 mr-2"></i>' . $param[telephone] . '</a>
                 </li>
                 <li class="nav-item">
                     <a href="https://www.facebook.com/Natalykeratin" target="_blank" class="nav-link" title="Открыть профиль в Facebook">
@@ -84,25 +87,6 @@
                     </div>
 
                 </div>
-                <!-- Material auto-sizing form -->
-<!--                <form class="my-4">-->
-<!--                    <div class="form-row align-items-center">-->
-<!--                        <div class="col-auto">-->
-<!--                            <div class="md-form">-->
-<!--                                <input type="text" class="form-control mb-2 white-text" id="inlineFormInputMD" placeholder="Ваше имя" required>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-auto">-->
-<!--                            <div class="md-form input-group">-->
-<!--                                <input type="tel" class="form-control pl-0 rounded-0 white-text" id="inlineFormInputGroupMD" placeholder="Ваш телефон" required>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-auto">-->
-<!--                            <button type="submit" class="btn btn-light-green mb-0">Оставить заявку</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </form>-->
-                <!-- Material auto-sizing form -->
             </div>
         </div>
     </div>
@@ -309,5 +293,6 @@
 
 
 </main>
-<!--Main Layout-->
-<?php include_once "template/footer.php" ?>
+<!--Main Layout-->';
+
+include_once "template/footer.php";

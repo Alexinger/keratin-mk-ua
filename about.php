@@ -41,6 +41,25 @@
                         <a class="nav-link" href="about.php">Обо мне <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
+                <!-- Social Icon  -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item d-flex align-self-center">
+                        <a href="tel:+380958874999" class="mr-2 text-white font-weight-normal">
+                            <i class="fa fa-phone light-green-text-2 mr-2"></i>
+                            (095) 88 74 999
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com/Natalykeratin" target="_blank" class="nav-link" title="Открыть профиль в Facebook">
+                            <i class="fa fa-facebook light-green-text-2"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/botox_keratin_nikolaev" target="_blank" class="nav-link" title="Открыть профиль в Instagram">
+                            <i class="fa fa-instagram light-green-text-2"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -48,19 +67,24 @@
     <!--Main Layout-->
     <main class="text-justify" style="margin-top: 100px;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div>
-                        <p>Давайте знакомиться! Меня зовут Наталья. <i class="fa fa-smile-o text-default fa-2x"></i></p>
-                        <p>Я мастер кератинового выпрямление волос, ботокса и комплексного лечения волос. Я очень люблю свою работу и ценю каждого клиента!
-                        Что касается места роботы, то я принимаю в студии, на дому и с выездом к вам. Все зависит от ваших предпочтений и различных обстоятельств. К примеру, в редких случаях приходится работать поздно вечером или на выходных. Тогда я принимаю на дому.
-                            Позже я выложу фото своего домашнего рабочего места, чтобы вы имели представление)  Вот моя личная страница в Инстаграм <code>@natalkajw_keratin</code>.
-                            Если возникают вопросы по поводу процедур и ухода за волосами - обращайтесь в директ. Я с удовольствием отвечу на все ваши вопросы!!! Кстати, в у меня вы можете приобрести косметику для волос: шампуни, бальзамы.</p>
+            <div class="row d-flex align-items-center">
+                    <div class="col-md-3">
+                        <img src="src/img/avatar-above.png" class="img-thumbnail rounded-circle z-depth-1-half mb-4">
                     </div>
-                </div>
+                    <div class="col-md-9">
+                        <p>Давайте знакомиться! Меня зовут Наталья. <i class="fa fa-smile-o text-default fa-2x"></i>
+                            Я мастер кератинового выпрямление волос, ботокса и комплексного лечения волос. Я очень люблю свою работу и ценю каждого клиента!
+                            Что касается места роботы, то я принимаю в студии, на дому и с выездом к вам.</p>
+                        <p>Все зависит от ваших предпочтений и различных обстоятельств. К примеру, в редких случаях приходится работать поздно вечером или на выходных. Тогда я принимаю на дому.</p>
+                        <p>Позже я выложу фото своего домашнего рабочего места, чтобы вы имели представление)  Вот моя личная страница в Инстаграм <code><a href="https://www.instagram.com/botox_keratin_nikolaev" target="_blank">@botox_keratin_nikolaev</a></code>.
+                            Если возникают вопросы по поводу процедур и ухода за волосами - обращайтесь в директ.</p>
+                        <p style="margin-bottom: 0;">Я с удовольствием отвечу на все ваши вопросы!!! У меня вы можете приобрести косметику для волос: шампуни, бальзамы.</p>
+                    </div>
+
             </div>
         </div>
     </main>
     <!--Main Layout-->
-
-<?php include_once "../template/footer.php" ?>
+<div class="block-footer">
+<?php include_once "template/footer.php" ?>
+</div>

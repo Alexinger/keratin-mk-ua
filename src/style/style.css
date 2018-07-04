@@ -37,6 +37,14 @@
     box-shadow: none !important;
     transition: 0.3s all;
 }
+.block-footer{
+    width: 100% !important;
+    position: relative;
+    bottom: -34px;
+}
+.page-footer{
+    background: #656565 url("/src/img/footer.png");
+}
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: rgba(239, 152, 29, 0.97);

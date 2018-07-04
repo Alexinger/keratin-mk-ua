@@ -41,12 +41,31 @@
                     <a class="nav-link" href="about.php">Обо мне</a>
                 </li>
             </ul>
+            <!-- Social Icon  -->
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item d-flex align-self-center">
+                    <a href="tel:+380958874999" class="mr-2 text-white font-weight-normal">
+                        <i class="fa fa-phone light-green-text-2 mr-2"></i>
+                        (095) 88 74 999
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/Natalykeratin" target="_blank" class="nav-link" title="Открыть профиль в Facebook">
+                        <i class="fa fa-facebook light-green-text-2"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/botox_keratin_nikolaev" target="_blank" class="nav-link" title="Открыть профиль в Instagram">
+                        <i class="fa fa-instagram light-green-text-2"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 
 </header>
 <!--Jumbotron-->
-    <div class="container" style="margin-top: 110px;">
+    <div class="container" style="margin-top: 95px;">
                 <div class="mdb-lightbox d-flex flex-wrap">
 
                     <figure class="col-md-4">
@@ -106,4 +125,4 @@
                 </div>
 </div>
 
-<?php include_once "../template/footer.php" ?>
+<?php include_once "template/footer.php" ?>

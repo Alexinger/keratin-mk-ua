@@ -1,6 +1,7 @@
-</body>
+<?php
+echo '</body>
 <!-- Footer -->
-<footer class="page-footer font-small pt-4 mt-4" style="background: url('/src/img/footer.png') #656565">
+<footer class="page-footer font-small pt-4 mt-4">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -54,6 +55,7 @@
                     <li><a href="tel:+380958874999" rel="nofollow">+38 (095) 88-74-999</a></li>
                     <li>Работаем с 09.00 до 21.00</li>
                     <li>ул. Героев Сталинграда, 13е</li>
+                    <li>keratin.fox@gmail.com</li>
                 </ul>
             </div>
             <!-- Grid column -->
@@ -73,11 +75,11 @@
                 <i class="fa fa-facebook"> </i>
             </a>
         </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1">
-                <i class="fa fa-google-plus"> </i>
-            </a>
-        </li>
+<!--        <li class="list-inline-item">-->
+<!--            <a class="btn-floating btn-gplus mx-1">-->
+<!--                <i class="fa fa-google-plus"> </i>-->
+<!--            </a>-->
+<!--        </li>-->
         <li class="list-inline-item">
             <a href="https://www.instagram.com/botox_keratin_nikolaev" class="btn-floating btn-dribbble mx-1">
                 <i class="fa fa-instagram"></i>
@@ -87,11 +89,10 @@
     <!-- Social buttons -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Keratin studio</a>
-    </div>
+    <div class="footer-copyright text-center py-3">' . $param[footer_content] . '</div>
     <!-- Copyright -->
 
 </footer>
+
 <!-- Footer -->
-</html>
+</html>';
