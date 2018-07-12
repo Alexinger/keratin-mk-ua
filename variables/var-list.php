@@ -30,3 +30,15 @@ $articles = [
                 'img_url' => 'img url'
         ]
 ];
+
+$array = [
+    '1' => 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg',
+    '2' => 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg',
+    '3' => 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg',
+    '4' => 'https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg',
+    '5' => 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg',
+    '6' => 'https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg',
+    '7' => 'https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg',
+    '8' => 'https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg',
+    '9' => 'https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(149).jpg'
+];

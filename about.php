@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Кератиновое выпрямление волос</title>
-    <!-- My style -->
-    <link href="../src/style/style.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+<?php
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
-</head>
-<body>
-    <header>
+require_once "variables/var-list.php";
+require_once "variables/tmpl.php";
+
+echo $head;
+
+echo '<header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-warning">
             <a class="navbar-brand" href="/"><img src="src/img/logo.png" class="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,9 +44,9 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header>';
 
-    <!--Main Layout-->
+echo '<!--Main Layout-->
     <main class="text-justify" style="margin-top: 100px;">
         <div class="container">
             <div class="row d-flex align-items-center">
@@ -84,7 +66,7 @@
             </div>
         </div>
     </main>
-    <!--Main Layout-->
-<div class="block-footer">
-<?php include_once "template/footer.php" ?>
-</div>
+    <!--Main Layout-->';
+
+echo '<div class="block-footer">' . $footer . '</div>';
+
