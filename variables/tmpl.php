@@ -6,24 +6,29 @@ $head = '<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="yandex-verification" content="7eaf8f203d6d1a1b" />
     <title>Кератиновое выпрямление волос</title>
-    <!-- My style -->
-    <link href="../src/style/style.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
-    <!-- My scripts -->
-    <script type="text/javascript" src="src/script/callForms.js"></script>
-    
+    <!-- My style -->
+    <link href="../src/style/style.css" rel="stylesheet">
+
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
     
+    
+    
+    <!-- My scripts -->
+    <script type="text/javascript" src="src/script/callForms.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+
+
+
 </head>
 <body>';
 
@@ -34,36 +39,39 @@ $head_index = '<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="yandex-verification" content="7eaf8f203d6d1a1b" />
     <title>Кератиновое выпрямление волос</title>
-    <!-- My style -->
-    <link href="../src/style/style.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+    <!-- My style -->
+    <link href="../src/style/style.css" rel="stylesheet">
 
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
     <!--Google Maps-->
     <script src="https://maps.google.com/maps/api/js?key=AIzaSyACHrrCY1PXDPq0L0HWZaTyZsi0Onv32j4"></script>
     <script type="text/javascript" src="src/script/js.js"></script>
     <!-- My scripts -->
     <script type="text/javascript" src="src/script/callForms.js"></script>
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+
+
 </head>
 <body>';
 
-$header_image = '<div class="view intro-2">
+$header_image = '
+<div class="view intro-2">
+<div class="block-orders btn btn-outline-light d-flex justify-content-center mx-3" data-toggle="modal" data-target="#modalLoginAvatar" click="gtag_report_conversion();">Получить консультацию <span class="d-none d-lg-block">&nbsp;бесплатно</span></div>
         <div class="full-bg-img">
             <div class="mask rgba-brown-strong flex-center d-flex flex-column">
-                <div class="container text-center white-text wow fadeInUp d-flex flex-column align-items-center">
-                <h1 class="mt-5 font-weight-normal" style="margin-bottom: 30px;">Дайте вашим волосам новое дыхание</h1>
-                    <div class="block-header d-flex flex-column">
+                <div class="container text-center white-text wow fadeInUp d-flex flex-column align-items-center mt-5">
+                <h1 class="mt-5 font-weight-normal d-lg-block d-none" style="margin-bottom: 30px;">Дайте вашим волосам новое дыхание</h1>
+                    <div class="block-header d-flex flex-column mt-2">
                         <h3>Выпрямление вьющихся волос, с помощью кератина. А теперь и ботокс волос</h3>
                         <br>
                         <p>Эффект держится от 3 до 6 месяцев.</p>
@@ -75,10 +83,7 @@ $header_image = '<div class="view intro-2">
         </div>
     </div>';
 
-$header = '<!--Main Navigation-->
-<header>
-
-<!--Modal: Login with Avatar Form-->
+$call_orders = '<!--Modal: Login with Avatar Form-->
 <div class="position-fixed call-action">
     <a href="" data-toggle="modal" data-target="#modalLoginAvatar"><img src="src/img/call-icon.gif" style="width: 100px;"></a>
 </div>
@@ -116,8 +121,14 @@ $header = '<!--Main Navigation-->
         </div>
         <!--/.Content-->
     </div>
-</form>
+</form>';
 
+$timer_bottom = '<!-- Frame Modal Bottom -->
+<div class="modal fade bottom" id="frameModalBottom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+<div class="modal-dialog modal-frame modal-bottom" role="document">';
+
+$header = '<!--Main Navigation-->
+<header>' . $call_orders . '
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         <a class="navbar-brand" href="/"><img src="../src/img/logo.png" class="logo"></a>
@@ -130,10 +141,13 @@ $header = '<!--Main Navigation-->
                     <a class="nav-link" href="/">Главная <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="foto-work.php">Портфолио</a>
+                    <a class="nav-link" href="foto-work">Портфолио</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">Обо мне</a>
+                    <a class="nav-link" href="vse-pro-keratin">Статьи о кератине</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about">Обо мне</a>
                 </li>
             </ul>
             <!-- Social Icon  -->
@@ -162,33 +176,30 @@ $content_index_main = '<!--Main Layout-->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="mb-4">ПРЕИМУЩЕСТВА ПРОЦЕДУРЫ</h2>
+                <h2 class="mb-5">ПРЕИМУЩЕСТВА ПРОЦЕДУРЫ</h2>
                 <div class="text-left">
                     <h4 class="h4-responsive header-text"><i class="fa fa-check mr-3"></i> ПОДХОДИТ ВСЕМ</h4>
-                    <p class="font-italic font-weight-normal">с любым типом волос, после химии, окрашивания
-                        и мелирования</p>
+                    <p class="font-italic font-weight-normal">Для любых типов волос, после химии, окрашивания
+                        и мелирования.</p>
                     <br>
                     <h4 class="h4-responsive header-text"><i class="fa fa-check mr-3"></i> ПОЛНОЕ ВОССТАНОВЛЕНИЕ</h4>
-                    <p class="font-italic font-weight-normal">волосам вернется природная сила, глянцевый,
-                        блестящий вид</p>
+                    <p class="font-italic font-weight-normal">Вашим волосам вернется природная сила, глянцевый,
+                        блестящий вид.</p>
                     <br>
                     <h4 class="h4-responsive header-text"><i class="fa fa-check mr-3"></i> ЭФФЕКТ УТЮГА</h4>
-                    <p class="font-italic font-weight-normal">возможность разгладить вьющиеся и очень кучерявые волосы.
-                    Это идеальное решения для волос, имеющих
-                        тенденцию реагировать на влажность</p>
+                    <p class="font-italic font-weight-normal">Возможность разгладить вьющиеся и очень кучерявые волосы.
+                    Это идеальное решения для волос, имеющих тенденцию реагировать на влажность.</p>
                     <br>
                     <h4 class="h4-responsive header-text"><i class="fa fa-check mr-3"></i> БЫСТРЫЙ РЕЗУЛЬТАТ</h4>
-                    <p class="font-italic font-weight-normal">вы увидите результат уже после первого мытья. Волосы станут
-                    блестящими, шелковисто-гладкими и удивительно
-                        ухоженными</p>
+                    <p class="font-italic font-weight-normal">Вы увидите результат уже после первого мытья головы. Волосы станут
+                    блестящими, шелковисто-гладкими и удивительно ухоженными.</p>
                     <br>
                     <h4 class="h4-responsive header-text"><i class="fa fa-check mr-3"></i> ДОЛГОСРОЧНЫЙ ЭФФЕКТ</h4>
-                    <p class="font-italic font-weight-normal">гарантия 6 месяцев (при использовании
-                        специальных средств по уходу)</p>
+                    <p class="font-italic font-weight-normal">Гарантия на результат 6 месяцев (при использовании
+                        специальных средств по уходу).</p>
                     <br>
                     <h4 class="h4-responsive header-text"><i class="fa fa-check mr-3"></i> БЛЕСК И УВЛАЖНЕНИЕ</h4>
-                    <p class="font-italic font-weight-normal">для сухих, натуральных волос, а так же поврежденныx
-                        окрашиванием или химией</p>
+                    <p class="font-italic font-weight-normal">Для сухих, натуральных волос, а так же поврежденныx окрашиванием или химией.</p>
                 </div>
             </div>
         </div>
@@ -345,7 +356,8 @@ $content_index_main = '<!--Main Layout-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="alert text-uppercase mt-4">Где мы находимся</h3>
+                <h3 class="alert text-uppercase mt-4 mb-0">Где мы находимся</h3>
+                <div class="font-weight-light alert alert-success d-inline-flex my-4">К нам едут маршрутки (1,13,26,40,51,54,56,62,87)</div>
                 <!--Google map-->
                 <div id="map-container" class="z-depth-1" style="height: 500px"></div>
             </div>
@@ -355,7 +367,7 @@ $content_index_main = '<!--Main Layout-->
 
 
 </main>
-<!--Main Layout-->\';';
+<!--Main Layout-->';
 
 $footer = '</body>
 <!-- Footer -->
@@ -368,11 +380,11 @@ $footer = '</body>
         <div class="row">
 
             <!-- Grid column -->
-            <div class="col-md-5 mx-auto">
+            <div class="col-md-5 mx-auto block-footer-mobile">
 
                 <!-- Content -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Дополнительная информация</h5>
-                <p>Инновационный уход за волосами, который восстанавливает структуру волос и придает им блеск. <br><strong>Кератиновое выпрямление</strong> - лечение волос. <br><strong>Ботокс</strong> - полное восстановление.</p>
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Иновации в мире красоты</h5>
+                <p class="pt-2">Инновационный уход за волосами, который восстанавливает структуру волос и придает им блеск. <br><strong class="text-warning">Кератиновое выпрямление</strong> - лечение волос и их выравнивание. <br><strong class="text-warning">Ботокс</strong> - полное восстановление.</p>
 
             </div>
             <!-- Grid column -->
@@ -380,23 +392,26 @@ $footer = '</body>
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
+            <div class="col-md-3 mx-auto block-footer-mobile">
 
                 <!-- Links -->
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Полезные статьи</h5>
 
                 <ul class="list-unstyled">
                     <li>
-                        <a href="#!">Уход за волосами</a>
+                        <a href="">Уход за волосами</a>
                     </li>
                     <li>
-                        <a href="#!">Вреден или полезен кератин</a>
+                        <a href="">Вреден или полезен кератин?</a>
                     </li>
                     <li>
-                        <a href="#!">Что такое ботокс</a>
+                        <a href="">Что такое ботокс волос?</a>
                     </li>
                     <li>
-                        <a href="#!">10 Мифов про кератин</a>
+                        <a href="/7-mifov-o-keratine">7 Мифов о кератине</a>
+                    </li>
+                    <li>
+                        <a href="">Маски для волос</a>
                     </li>
                 </ul>
 
@@ -406,11 +421,12 @@ $footer = '</body>
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
+            <div class="col-md-3 mx-auto block-footer-mobile">
 
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Контакты</h5>
                 <ul class="list-unstyled">
-                    <li><a href="tel:+380958874999" rel="nofollow">+38 (095) 88-74-999</a></li>
+                    <li>г.Николаев</li>
+                    <li><a href="tel:+380958874999" rel="nofollow" class="font-weight-bold">+38 (095) 88-74-999</a></li>
                     <li>Работаем с 09.00 до 21.00</li>
                     <li>ул. Героев Сталинграда, 13е</li>
                     <li>keratin.fox@gmail.com</li>
@@ -427,9 +443,9 @@ $footer = '</body>
     <hr>
 
     <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-            <a href="https://www.facebook.com/Natalykeratin" class="btn-floating btn-fb mx-1">
+    <ul class="list-unstyled list-inline text-center" style="font-size: 2rem;">
+        <li class="list-inline-item mx-3">
+            <a href="https://www.facebook.com/Natalykeratin" class="btn-floating btn-fb mx-1" title="Рабочая страница в Facebook">
                 <i class="fa fa-facebook"> </i>
             </a>
         </li>
@@ -438,8 +454,8 @@ $footer = '</body>
 <!--                <i class="fa fa-google-plus"> </i>-->
 <!--            </a>-->
 <!--        </li>-->
-        <li class="list-inline-item">
-            <a href="https://www.instagram.com/botox_keratin_nikolaev" class="btn-floating btn-dribbble mx-1">
+        <li class="list-inline-item mx-3">
+            <a href="https://www.instagram.com/botox_keratin_nikolaev" class="btn-floating btn-dribbble mx-1" title="Рабочая страница в Instagram">
                 <i class="fa fa-instagram"></i>
             </a>
         </li>
@@ -450,9 +466,9 @@ $footer = '</body>
     <div class="footer-copyright text-center py-3">' . $param[footer_content] . '</div>
     <!-- Copyright -->
     
-<!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
-</footer>
 
+</footer>
 <!-- Footer -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+   
 </html>';

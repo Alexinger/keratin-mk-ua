@@ -8,6 +8,13 @@
     background-size: cover;
 }
 
+.block-orders{
+    z-index: 1;
+    font-size: 20px;
+    margin-top: 150px;
+    position: sticky;
+}
+
 .navbar {
     background-color: transparent;
 }
@@ -45,6 +52,12 @@
 .page-footer{
     background: #656565 url("/src/img/footer.png");
 }
+.btn-floating .fa-instagram:hover{
+    color: #f80;
+}
+.btn-floating .fa-facebook:hover{
+    color: #4285f4;
+}
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: rgba(239, 152, 29, 0.97);
@@ -52,5 +65,17 @@
     .call-action{
         right: 5px;
         bottom: 5px;
+    }
+    .block-orders{
+        margin-top: 70px;
+    }
+    .block-footer-mobile{
+        font-size: 1.2rem;
+    }
+    .block-footer-mobile h5{
+        font-size: 1.5rem;
+    }
+    h4.h4-responsive.header-text{
+        text-align: center;
     }
 }

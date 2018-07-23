@@ -5,7 +5,7 @@ require_once "variables/tmpl.php";
 
 echo $head;
 
-echo '<header>
+echo '<header>' . $call_orders . '
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-warning">
             <a class="navbar-brand" href="/"><img src="src/img/logo.png" class="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,10 +17,13 @@ echo '<header>
                         <a class="nav-link" href="/">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="foto-work.php">Фото работ</a>
+                        <a class="nav-link" href="foto-work">Фото работ</a>
                     </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="vse-pro-keratin">Статьи о кератине</a>
+                </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="about.php">Обо мне <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about">Обо мне <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <!-- Social Icon  -->
@@ -58,9 +61,9 @@ echo '<!--Main Layout-->
                             Я мастер кератинового выпрямление волос, ботокса и комплексного лечения волос. Я очень люблю свою работу и ценю каждого клиента!
                             Что касается места роботы, то я принимаю в студии, на дому и с выездом к вам.</p>
                         <p>Все зависит от ваших предпочтений и различных обстоятельств. К примеру, в редких случаях приходится работать поздно вечером или на выходных. Тогда я принимаю на дому.</p>
-                        <p>Позже я выложу фото своего домашнего рабочего места, чтобы вы имели представление)  Вот моя личная страница в Инстаграм <code><a href="https://www.instagram.com/botox_keratin_nikolaev" target="_blank">@botox_keratin_nikolaev</a></code>.
+                        <p>Позже я выложу фото своего домашнего рабочего места, чтобы вы имели представление)  Вот моя рабочая страница в Инстаграм <code><a href="https://www.instagram.com/botox_keratin_nikolaev" target="_blank">@botox_keratin_nikolaev</a></code>.
                             Если возникают вопросы по поводу процедур и ухода за волосами - обращайтесь в директ.</p>
-                        <p style="margin-bottom: 0;">Я с удовольствием отвечу на все ваши вопросы!!! У меня вы можете приобрести косметику для волос: шампуни, бальзамы.</p>
+                        <p style="margin-bottom: 0;">Я с удовольствием отвечу на все ваши вопросы!!! У меня вы можете приобрести косметику для волос: шампуни, кондиционеры.</p>
                     </div>
 
             </div>
